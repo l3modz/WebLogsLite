@@ -7,7 +7,7 @@ drwxr-xr-x   2 l3modz l3modz  4096 Des 14 18:33 accountmgr
 drwxr-xr-x  11 l3modz l3modz  4096 Des 14 18:34 advtrains
 drwxr-xr-x   8 l3modz l3modz  4096 Des 14 18:34 airutils
 drwxr-xr-x   4 l3modz l3modz  4096 Des 14 18:34 algae
-drwxr-xr-x   4 pias pias  4096 Des 14 18:34 ambience
+drwxr-xr-x   4 l3modz l3modz  4096 Des 14 18:34 ambience
 drwxr-xr-x   8 l3modz l3modz  4096 Des 23 21:33 animalia
 drwxr-xr-x   7 l3modz l3modz  4096 Des 23 21:35 animalworld
 drwxr-xr-x   2 pias pias  4096 Des 14 18:35 announcements
