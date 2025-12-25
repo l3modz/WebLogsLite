@@ -126,8 +126,7 @@ drwxr-xr-x   5 pias pias  4096 Des 14 18:41 jelys_pizzaria
 drwxr-xr-x   3 pias pias  4096 Des 14 18:41 j_mute
 drwxr-xr-x   5 pias pias  4096 Des 14 18:41 kartcar
 drwxr-xr-x   3 pias pias  4096 Des 14 18:41 kudzu
-drwxrwxr-x   3 pias pias  4096 Des 21 00:58 lafasalloh
-drwxrwxr-x   3 pias pias  4096 Des 21 00:58 lafasmuhammad
+
 drwxr-xr-x   5 pias pias  4096 Des 14 18:42 laptop
 drwxr-xr-x   3 pias pias  4096 Des 14 18:42 laptop_extend_pack_2
 drwxr-xr-x   4 pias pias  4096 Des 14 18:42 last_login_signs
