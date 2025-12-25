@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    
+    <title>WebLogsLite</title>    
 <style>
 /* Ensure html and body take up full height and remove default margins/padding */
 html, body {
@@ -20,40 +19,35 @@ html, body {
     width: 100%;
     height: 100%; /* Fills remaining height of the parent (body) */
     border: none;
+
 }
 </style>
-
-
 <script>
-window.onload = function() {
-    var iframe = document.getElementById('full-screen-iframe');
+  function scrollToBottom() {
+    const iframe = document.getElementById('fullIframe');
+    // Access the internal document of the iframe
+    const iframeWindow = iframe.contentWindow;
+    const iframeDocument = iframe.contentDocument || iframeWindow.document;
 
-    // Add an event listener to the iframe's load event
-    iframe.onload = function() {
-        try {
-            // Attempt to access the content document of the iframe
-            var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-
-            // Scroll to the bottom of the iframe's content
-            // scrollHeight gives the total scrollable height of the content
-            iframeDoc.documentElement.scrollTop = iframeDoc.documentElement.scrollHeight;
-            // For older browsers
-            iframeDoc.body.scrollTop = iframeDoc.body.scrollHeight;
-
-        } catch (e) {
-            console.error("Could not access iframe content due to cross-origin restrictions:", e);
-            // If cross-origin restrictions apply, this script cannot force the scroll.
-            // You might add a 'hack' if you can control the *source* page,
-            // e.g., by linking to an anchor tag at the bottom (e.g., yoururl.in#bottom).
-        }
-    };
-};
+    // Scroll to the maximum height of the document
+    iframeWindow.scrollTo(0, iframeDocument.body.scrollHeight);
+  }
+    
 </script>
 </head>
 <body>
-<iframe id="full-screen-iframe" src="list_mods.minetest.txt" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<iframe 
+    margin= "0"
+    padding= "0"
+    id="fullIframe"
+    src="list_mods.minetest.txt" 
+    width="100%" 
+    height="100%" 
+    display="block"
+    border= "none"
+    onload="scrollToBottom()">
+</iframe>
+    <!-- WebLogsLite: add your logs systems here, open Firefox Mozilla as faster browser as no no address bar, etc. ^_^ ^_^ ^_^ -->
 
-</body>
+</body>  
 </html>
-
-
