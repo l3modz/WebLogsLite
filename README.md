@@ -2,7 +2,7 @@
 WebLogsLite was logs system using scrypt bash Linux on crand automation was shown on Firefox Browser using HTML, you can add more logs you want to see as moveable Firefox Browser.
 
 # Install
-Download ZIP file extract to your /var/www/html/WebLogsLite<br />
+<a href="https://github.com/l3modz/WebLogsLite/archive/refs/heads/main.zip" target="_blank">Download ZIP</a> file extract to your /var/www/html/WebLogsLite<br />
 
 # Automation
 #crontab -e<br />
