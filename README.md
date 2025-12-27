@@ -6,5 +6,6 @@ Download ZIP file extract to your /var/www/html/WebLogsLite<br />
 
 # Automation
 #crontab -e<br />
-*/30 * * * * ls -la /home/parlind-desktop/.var/app/org.luanti.luanti/.minetest/mods/ > /var/www/html/WebLogsLite/list_mods.minetest.txt<br /><br />
+*/30 * * * * ls -la /home/parlind-desktop/.var/app/org.luanti.luanti/.minetest/mods/ > /var/www/html/WebLogsLite/list_mods.minetest.txt<br />
+Add more logs your system of Minetest<br />
 Enjoy.
